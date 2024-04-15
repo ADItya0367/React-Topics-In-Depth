@@ -1,0 +1,13 @@
+// do nothing just read the concepts first 
+// install node js(with this npm package will also be downloaded as called as node package manager)
+// install create-react-app(this will include all required boiler plate and will include webpack babel and eslint that are
+used for compiling our codes )
+// install npx  as npm i -g npx
+-----------------------------------
+LET'S DO THIS FIRST 
+- open terminal usinf ctrl+shift+`
+-type all these commands 
+- make sure to choose project name in small letter react does not accept project name starting in captial letters
+
+// NOW LET'S LEARN ABOUT FOLDER STRUCTURE 
+Discussed in the concept_02 make sure to visit that folder 

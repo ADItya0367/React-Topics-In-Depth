@@ -1,0 +1,18 @@
+// before moving furtre make sure to read the concepts in text 
+// In this concept we will talk about the folder structure 
+these hings are included in folder structure of React 
+
+1----node_modules- contains all library that will be used in react project we have to import all library not all but which 
+we will require to run our project
+
+2----public-- contains index.html file that mainly contains the root div where every code is compiled 
+
+3----src -- contains index.js which is the first file that executes first on project loading
+
+4----.gitignore-- contains all file that should be ignored from deployment , which you don't want to show  on github maybe
+
+
+5----package-lock.json--The purpose of package-lock. json is to ensure that the same dependencies are installed consistently across different environments, such as development and production environments.
+
+6----package.json-- contains all  settings of the react ... you can modify the port and start script (read text)
+7----readme.md -- includes the guide information how to run and use the project ... here md stands for markdown documentation

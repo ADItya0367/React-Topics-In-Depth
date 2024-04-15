@@ -1,0 +1,28 @@
+React Tutorial Lecture 01 -----
+------------------------------------------------------------------------------
+React is mainly used to build User interfaces , it is an javascript library that is mainly used to build single page application ...means every single pages is compiled in single page ...Thats why every company prefers react ........
+
+Example -- Flipkart is mainly builded in react js 
+
+React js is built by Facebook  ---100kb
+Angular js created by google ---500kb
+vue js created by Evan You ---80kb
+
+
+Google trends is used to compare which technology is in demand 
+ 
+WHY REACT IS SO FAST 
+-mainly because of two reasons 
+** Library file size 
+** React and vue  works on Virtual dom means whenever we use react
+then the whole dom (document object model)...react makes a copy of dom and stores it in the RAM(read access memory) thats why it works very fast
+current version of react is now 18.0.0
+initial release in 2013(0.3.0)
+React is developed by facebook employee jordan walke 
+
+PREREQUISITE TO RUN REACT
+-node should be installed
+-create-react-app should be installed (globally)-this is a package(it mainly gives us a ready made code known as boiler plate)(it also gives us webpack babel and eslint that help us in compiling the files for production)
+-npm i -g npx(node p ackage execute)
+-npx create-react-app project_name
+Node js ke sare packages commes from npmjs.com

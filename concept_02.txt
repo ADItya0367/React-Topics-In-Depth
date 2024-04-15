@@ -1,0 +1,41 @@
+LECTURE_02
+-Download wap analyser extension(chrome) to know which technologies are used by websites 
+-Difference between client side and server side( Client-side means that the action takes place on the user's (the client's) computer. Server-side means that the action takes place on a web server.)
+-Difference between library and frameworks (A framework is a set of pre-written code that provides a structure for developing software applications. A library, on the other hand, is a collection of pre-written code that can be used to perform specific tasks.)
+
+
+
+EXTENSIONS REQUIRED
+- React Redux ES7  
+- React js is nothing but a node js project 
+
+FOLDER STRUCTURE 
+-node_modules- contain all libraries
+-Public- contains main file index.html
+-src-contains first file that executes on opening react is index.js or other files as well
+-gitignore- mainly includes all files that are not meant to be executed
+-package.json(contains all settings ,,,always in the format of javascript objects {})
+-package-lock json
+-Readme.md- to provides information about  project , here md extension stands for markdown extension 
+
+WAYS TO RUN A FILE
+-suppose i have a file named as test.js and in that i have done console.log('hello')
+-Then ib can run this in two way 
+------ Through node write command node .\file_name
+------ Through npm write npm start(for this you have to change the pah in going to package.json and change the start react script file by the file that you want to run )
+
+DEFAULT PORT 
+default port of react js is 3000 but in case you want to change it go to package.json and go to SET PORT= ANYTHING && react-script-start
+
+-The very first file that loads in react is only index.js in src folder 
+-all library resides in node_modules 
+-all content in react is included in root id in body section in index.html in public whereas src mainly contains index.js that contains all logic portion-the only single page that contains every single code  
+-You will observe import and export everywhere  in index.html file or index.js file so we will see their working lateron 
+- index.html is the single page that is used throughout the react application
+
+COMPONENTS- In react js html elements are only called as react components(you can try changing the content in index.js ) 
+
+after changing the content you can also see that you can also change the styling of your components ...in order to do that  ccreate a .css file in src and change some styling and it will be reflected in your browser default at 3000 !!
+
+HOT RELOADING
+-React js support hot reloading means that live server is already inbuilt in react js so if you will change anything then it wil be automatically be changed 
