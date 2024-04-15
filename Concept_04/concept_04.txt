@@ -1,0 +1,25 @@
+COMPONENTS IN REACT JS 
+Definition - components means html elements we can say 
+Before talking about components we should know that componets we make using seperate files in src ..but we can also make components in src directly in index.js 
+
+TYPES OF COMPONENT IN REACT
+** Functiona l component(RFC)-More used 
+    (they are juust like simple function which returns something )....they return JSX structure in react ....jsx stands for javascript and xml ...jsx alllow us to write html code inside react file 
+       return <h1>Hello world !! </h1>
+    - functional components can be nested 
+    - functional component names have first letter Capital always  
+   - make sure whatever you will embed function in react will be self closing  </>
+   - also make sure that you cannot return two things simultaneously in one functional component means there should be only one return statementin function if you want to return two things you can use these 
+   ** <></> 
+   **<React.Fragment><React.Fragment/>
+
+File name and function name should be same in every case
+
+
+** Class Components (RCC) - Less used
+
+YOU CAN DIRECTLY USE RCC OR RFC IN ANY FILE TO GET DEFAULT BOILER CODE AND YOU CAN MODIFY IT 
+
+WAYS TO EXPORT THE FILES 
+-default export  export default file_name
+-Named Export    

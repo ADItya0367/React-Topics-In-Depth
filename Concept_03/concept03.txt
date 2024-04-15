@@ -1,0 +1,15 @@
+LECTURE 03
+
+-npm start - start the thing that will be included in script start , see this in package.json
+-there are two types of development  we do 
+** local (for self testing use)(they are readable)----run through npm start
+** production(for company projects)(not readable as highly compressed)---npm run build then serve -s build (port 5000) ..mainly asset bundler are used like webpack and babel are used that mainly compress javascript ,css,images etc files in in one seperate file our react application....react contains built in webpack ...acts a s a bundler ....................and because of that loading time in production becomes very less and our page appears very fast ..
+
+
+In order to check the speed of loading time of our application go to Network tab and see the speed in ms
+
+Mainl logic file for react is index.js in src folder , and as react are SPA application there is only one template as index.html 
+
+Now you can compare the local deployed and production deployed building you will see that the production will be much faster then local development 
+
+Once you build in production then after that making changes in code will not be updated automatically ....you have to rebuild it everytime you update your code 
