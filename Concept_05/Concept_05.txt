@@ -1,0 +1,30 @@
+CONCEPT- 05
+
+In this Concept we will mainly learn about more about functional and class components .
+- We already know that there are two ways to create components in react js . 
+- components are mainly the HTML tags we can say and they are created by two methods
+ **RFC(react functional component)-just type rfc and the structure will be loaded automatically.
+
+ **RCC(React class components ) , we should know that using react class component is deprecated from the market now by facebook only so 99% we will only use the functional components
+
+Now lets create some create functional and class components in react
+
+STEPTS FROM START
+-Install node js
+-Install npx (npm i -g npx)
+-npx  create-react-app project_name
+-there are two main folders (we have already seen the folder structure)
+  * Src(mainly contains index.js known as logic file) and Public(mainly contains the structure of html file contains index.html file mainly)
+
+- you can write anything inside the app.js (already created file) between the <div>Hello World !!</div>
+- Another way to write or using nested components create a file instead see how to do that 
+
+-Create a folder component in the src folder 
+- Now create different files..better to call as components now 
+-once created go to that component/file and write rfc or either rcc - you know what it means right ??
+- on doing so you will get the basic structure of functional or class components 
+- you can now change the content inside <div>change content here</div> under return function of the structure 
+- now its time to import and export ..earlier we have studied this right ??
+- export the file using any two method we have seen earlier 
+- import the file into main file here our main file is app.js 
+- once imported and exported inject the file name using self closing tag </>
