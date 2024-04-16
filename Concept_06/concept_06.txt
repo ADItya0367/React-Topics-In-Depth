@@ -1,0 +1,21 @@
+CONCEPT-06
+
+-So in  the previous lecture we have seen the concept of functional and clas components and how to write things in nested form 
+-Now lets learn after that .. in this lecture we will see the working of hooks i mean react hooks
+
+- Lets reacp first what we have studied earlier  - we have used and made functional and class components , make sure you know the difference , that class component uses render mathod to retun something while in functional component directly return things....class component mainly includes (PCM) property , constructors and Methods etc...
+
+- Now we will see how to transfer the Data from one component to another component - make sure that you transfer the data from and to functional component only ... we will see data transfer in class component very soon .
+
+TOPIC : REACT HOOKS 
+-Hooks are mainly defined as a feature in react that helps to transfer data from one component to another using states (here state only means data dont be confused)
+-Syntax -     const(variables, functions)=useState("any value") compare it with this    const(state,setState)=(10) 
+- so this is hooks now see how we can use it (we know that with the help of this we can transfer our data )
+-Where to define it ?--- create a function and before returning it write this statement with value 
+-What to do after Defining ?---before moving further w ehave to use props (means to get the value from useState). in that function only go to return part and write name={variable_name}Now to to that component where you want this answer/value you have declared in useState(...val..) --- after going to the component write in the function argument the inside curly braces {name} and also after message section 
+
+FINALLY - we can say that there are four ways to use Hooks 
+-Create a function  through rfc ___>> create a hook before returning something ___>> Define the props like name={variable_name}
+-Go to that component/function where  you want to see the result.. in the  argument of that component write {name} and also in message 
+
+NOW LET'S SEE THE CODE TO UNDERSTAND THE WORKING !! 
