@@ -1,0 +1,32 @@
+LECTURE-07
+In this lecture we have seen the difference between the class and the functional component in detail 
+- As of now we have only seen that there are two components in React js class and functional component but today we will also see the Third type of component as Functional Component 
+- We havce also seen that there are two types of export default and named , you  might be knowing that when we do default export then we can import the same thing with any name - we will see all these now don't worry , but our main goal is to focus on higher order components 
+
+STEPS FROM SCRATCH - 
+- install node js
+-install npx by npm i -g npx
+-install create-react-app  by npm i -g create-react-app
+-npx create-react-app project_name
+-you will see all folders on left hand side ...don't panic they are very easy to understand 
+- now make a directory in src as components as in previous class we had made 
+- after making a directory make a file/ better to call it as component ....make sure that the name is in capital letter 
+- create a functional component or class componet in that file and again make sure that the name of component is similar to the file name ---these are some conventions ]
+- after creating it just play with import and export as done in previous class 
+
+---Now let's talk about Higher Order Function (these are another type of component other than functional or class --they mainly helps to create a component at the runctime only )--they mainly use class component and we mainly export them default and after that we have to create another component as like name={previous component name}
+
+Also known as HOC, the React Higher-Order Components is an advanced technique that takes a component and returns a new component. It is used for reusing component logic.
+
+
+EXAMPLE 
+
+function sub (x, y) {
+return x - y
+}
+function higherOrderComp(x, subReference) {
+return subReference(x, 10)
+}
+higherOrderComp(50, sub)
+
+COME TO THE CODE NOW !! 
