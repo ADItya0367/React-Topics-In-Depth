@@ -1,0 +1,26 @@
+LECTURE-08
+
+in this lecture we will mainly focus on the react.render thing and why is it used much .
+STEPS FROM START 
+
+- install node js
+-install npx by npm i -g npx
+-install create-react-app  by npm i -g create-react-app
+-npx create-react-app project_name
+-you will see all folders on left hand side ...don't panic they are very easy to understand 
+- now make a directory in src as components as in previous class we had made 
+- after making a directory make a file/ better to call it as component ....make sure that the name is in capital letter 
+- create a functional component or class componet in that file and again make sure that the name of component is similar to the file name ---these are some conventions ]
+- after creating it just play with import and export as done in previous class 
+
+
+- Now you can see that in the index.js file in src has a thing like React.render()...just compare it with React.render(what,where)......this is just an object of the class defined in the index.js 
+at the place of what you can write your message in h1 tag or div ....anything you can choose ....and on the place of where you can write the place where you want to show this thing , so now as seen already we have already a index.html file in public folder where the main path is root defined prior ....right so in the place of where you can define the path as root throgh DOM access as like 
+
+React.render(<h1>Hello Everyone<h1/>,getElementsById("root"));
+ This is how it works 
+
+- We know that class mainly contains PCM (Properties , constructors and mathods )  Similarly 
+- Functions also contain SFR (State, functions and Return ...where state and functions are not compulsory but returning something is very necessary )
+
+PLAY WITH React.render() by importing and exporting something !! 
